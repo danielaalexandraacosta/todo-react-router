@@ -1,6 +1,7 @@
 import Ejemplo from "../pages/ejemplo";
 import Home from "../pages/home";
 import Layout from "./Layout";
+import Todoclass from "../pages/Dancosta.jsx"
 
 export const childrenRouterList = [
     {
@@ -12,5 +13,11 @@ export const childrenRouterList = [
         path: "login",
         Component: Ejemplo,
         text: "Ejemplo"
+    },
+    {
+        path: "Todo",
+        Component: Todoclass,
+        text: "Todo"
     }
+
 ]
